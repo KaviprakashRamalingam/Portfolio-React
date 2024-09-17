@@ -1,76 +1,70 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import Horse from "../assets/projects/Horse.jpg";
+import Renault from "../assets/projects/Renault.jpg";
+import TT from "../assets/projects/TT.png";
+import Portfolio from "../assets/projects/Portfolio.png";
+import CDK from "../assets/projects/CDK.jpg"
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I’m a full-stack developer with 5 years of experience, focused on building scalable web applications. I specialize in React, Next.js, and backend technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My aim is to create smart, effective solutions that not only support business growth but also enhance the user experience.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I’m a full stack developer with a strong background in delivering scalable and reliable web solutions. With over 5 years of experience, I’ve mastered a range of technologies, from React and Next.js on the front end to Node.js, MySQL, PostgreSQL, and MongoDB on the back end. My expertise spans creating modular, reusable components, designing complex microservices architectures, and optimizing systems for performance. I’m driven by a love for solving intricate problems and a commitment to building seamless user experiences. Outside of development, I’m always exploring new technologies and refining my skills, constantly looking for ways to make a meaningful impact through code.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2021 - 2023",
     role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    company: "Renault Nissan",
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with OracleDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["Javascript", "React.js", "Next.js", "Oracle", "Spring Boot", "ELK"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2018 - 2021",
+    role: "Associate Consultant ",
+    company: "Capgemini",
+    description: `Developed and optimized SAP modules (SD, FICO) using ABAP-based reports, BADIs, and BAPIs, integrated cross-platform data exchange via FTP, and led the migration of Oracle DB to SAP HANA, improving data integrity and reducing manual errors.`,
+    technologies: ["HTML", "CSS", "mySQL", "ETL", "SAP HANA", "ABAP"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "HORSE and AMPERE",
+    image: Horse,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "HORSE and AMPERE are key web applications for Renault Nissan's EV strategy, designed to enhance performance and user experience. Built with React, Redux, and Spring Boot microservices, these platforms optimize real-time data access, reduce frontend latency, and ensure fast data retrieval, supporting Renault's electric vehicle operations.",
+    technologies: ["React", "Redux", "Spring Boot", "Redis", "Elasticsearch", "SQL"],
+  },
+  {
+    title: "ALCOR",
+    image: Renault,
+    description:
+      "ALCOR is a security-focused initiative for Renault Nissan, designed to strengthen SAP system compliance and data integration. By implementing SAP UI masking with SAPUI5 and integrating Cloud Identity Services, the project achieved 99% security compliance. Additionally, REST APIs were developed using Apigee with OAuth2, allowing for real-time data synchronization between Azure and SAP, boosting operational efficiency by 25%.",
+    technologies: ["SAPUI5", "SAP Cloud", "CRM", "Apigee", "OAuth2", "Azure", "SAP"],
+  },
+  {
+    title: "Tasty trails - Food sharing app",
+    image: TT,
+    description:
+      "A fully functional purpose-driven web application designed to foster community collaboration and reduce food waste. Tasty Trails provides a platform for users to share information about surplus food, creating a better environment where everyone can contribute to minimizing food wastage.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Career Development Kit",
+    image: CDK,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Career Development Kit (CDK) is a Spring Boot application designed to facilitate user login, job posting, and job applications with various features aimed at enhancing career development.",
+    technologies: ["Spring Boot", "Hibernate ORM", "Spring Security", "Google OAuth2", "jQuery"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: Portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Boston, MA 02445 ",
+  phoneNo: "+1 857 423 9278 ",
+  email: "kavir4118@gmail.com",
 };
