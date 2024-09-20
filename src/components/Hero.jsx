@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/personal.jpeg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -51,8 +51,17 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
               alt="Kaviprakash Ramalingam"
+              className="rounded-2xl"
             />
           </div>
+        </div>
+        <div>
+          <button
+            className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-purple-500 hover:to-pink-500 text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
+            onClick={() => window.open("/Resume.pdf", "_blank")}
+          >
+            Download CV
+          </button>
         </div>
       </div>
     </div>

@@ -32,6 +32,7 @@ export const PROJECTS = [
     description:
       "HORSE and AMPERE are key web applications for Renault Nissan's EV strategy, designed to enhance performance and user experience. Built with React, Redux, and Spring Boot microservices, these platforms optimize real-time data access, reduce frontend latency, and ensure fast data retrieval, supporting Renault's electric vehicle operations.",
     technologies: ["React", "Redux", "Spring Boot", "Redis", "Elasticsearch", "SQL"],
+    link: "https://media.renaultgroup.com/horse-new-leading-powertrain-technology-company-is-now-fully-operational-and-ready-to-reinvent-combustion/",
   },
   {
     title: "ALCOR",
@@ -39,6 +40,7 @@ export const PROJECTS = [
     description:
       "ALCOR is a security-focused initiative for Renault Nissan, designed to strengthen SAP system compliance and data integration. By implementing SAP UI masking with SAPUI5 and integrating Cloud Identity Services, the project achieved 99% security compliance. Additionally, REST APIs were developed using Apigee with OAuth2, allowing for real-time data synchronization between Azure and SAP, boosting operational efficiency by 25%.",
     technologies: ["SAPUI5", "SAP Cloud", "CRM", "Apigee", "OAuth2", "Azure", "SAP"],
+    link: "https://rntbci.in/competencies/software-technology",
   },
   {
     title: "Tasty trails - Food sharing app",
@@ -46,6 +48,7 @@ export const PROJECTS = [
     description:
       "A fully functional purpose-driven web application designed to foster community collaboration and reduce food waste. Tasty Trails provides a platform for users to share information about surplus food, creating a better environment where everyone can contribute to minimizing food wastage.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link: "https://github.com/KaviprakashRamalingam/Tasty-Trails---REACT-application",
   },
   {
     title: "Career Development Kit",
@@ -53,6 +56,7 @@ export const PROJECTS = [
     description:
       "Career Development Kit (CDK) is a Spring Boot application designed to facilitate user login, job posting, and job applications with various features aimed at enhancing career development.",
     technologies: ["Spring Boot", "Hibernate ORM", "Spring Security", "Google OAuth2", "jQuery"],
+    link: "https://github.com/KaviprakashRamalingam/CDK-Spring-Boot-Application",
   },
   {
     title: "Portfolio Website",
@@ -60,6 +64,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    link: "https://github.com/KaviprakashRamalingam/Portfolio-React",
   },
 ];
 

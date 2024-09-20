@@ -21,13 +21,15 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded "
-              />
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={project.image}
+                  width={150}
+                  height={150}
+                  alt={project.title}
+                  className="mb-6 rounded "
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -35,7 +37,9 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <a href={project.link}>
+                <h6 className="mb-2 font-semibold">{project.title}</h6>
+              </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
