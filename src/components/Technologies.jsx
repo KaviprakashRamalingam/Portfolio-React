@@ -17,6 +17,7 @@ import {
   SiTerraform,
   SiSap,
   SiApachetomcat,
+  SiMysql,
 } from "react-icons/si";
 import { FaNodeJs, FaJava, FaPython } from "react-icons/fa";
 import { DiRedis } from "react-icons/di";
@@ -75,6 +76,61 @@ const Technologies = () => {
           <span className="mt-2 text-lg font-semibold">Next.js</span>
         </motion.div>
 
+        {/* Javascript */}
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiJavascript className="text-7xl text-yellow-300" />
+          <span className="mt-2 text-lg font-semibold">Javascript</span>
+        </motion.div>
+
+        {/* Typescript */}
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-7xl text-blue-600" />
+          <span className="mt-2 text-lg font-semibold">Typescript</span>
+        </motion.div>
+
+        {/* Bootstrap */}
+        <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiBootstrap className="text-7xl text-purple-500" />
+          <span className="mt-2 text-lg font-semibold">Bootstrap</span>
+        </motion.div>
+
+        {/* Node.js */}
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaNodeJs className="text-7xl text-green-500" />
+          <span className="mt-2 text-lg font-semibold">Node.js</span>
+        </motion.div>
+
+        {/* Python */}
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaPython className="text-7xl text-yellow-500" />
+          <span className="mt-2 text-lg font-semibold">Python</span>
+        </motion.div>
+
         {/* Redis */}
         <motion.div
           variants={iconVariants(4)}
@@ -84,6 +140,17 @@ const Technologies = () => {
         >
           <DiRedis className="text-7xl text-red-700" />
           <span className="mt-2 text-lg font-semibold">Redis</span>
+        </motion.div>
+
+        {/* MySQL */}
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMysql className="text-7xl text-orange-600" />
+          <span className="mt-2 text-lg font-semibold">MySQL</span>
         </motion.div>
 
         {/* PostgreSQL */}
@@ -108,16 +175,7 @@ const Technologies = () => {
           <span className="mt-2 text-lg font-semibold">MongoDB</span>
         </motion.div>
 
-        {/* Node.js */}
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaNodeJs className="text-7xl text-green-500" />
-          <span className="mt-2 text-lg font-semibold">Node.js</span>
-        </motion.div>
+        {/* JAVA */}
         <motion.div
           variants={iconVariants(4)}
           initial="initial"
@@ -127,36 +185,7 @@ const Technologies = () => {
           <FaJava className="text-7xl text-orange-600" />
           <span className="mt-2 text-lg font-semibold">Java</span>
         </motion.div>
-        {/* Python */}
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaPython className="text-7xl text-yellow-500" />
-          <span className="mt-2 text-lg font-semibold">Python</span>
-        </motion.div>
-        {/* Javascript */}
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiJavascript className="text-7xl text-yellow-300" />
-          <span className="mt-2 text-lg font-semibold">Javascript</span>
-        </motion.div>
-        {/* Typescript */}
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiTypescript className="text-7xl text-blue-600" />
-          <span className="mt-2 text-lg font-semibold">Typescript</span>
-        </motion.div>
+
         {/* Spring Boot */}
         <motion.div
           variants={iconVariants(5)}
@@ -166,27 +195,6 @@ const Technologies = () => {
         >
           <SiSpringboot className="text-7xl text-green-500" />
           <span className="mt-2 text-lg font-semibold">Spring Boot</span>
-        </motion.div>
-        {/* Bootstrap */}
-        <motion.div
-          variants={iconVariants(1.5)}
-          initial="initial"
-          animate="animate"
-          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiBootstrap className="text-7xl text-purple-500" />
-          <span className="mt-2 text-lg font-semibold">Bootstrap</span>
-        </motion.div>
-
-        {/* Kafka */}
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiApachekafka className="text-7xl text-black" />
-          <span className="mt-2 text-lg font-semibold">Kafka</span>
         </motion.div>
 
         {/* Hibernate */}
@@ -209,6 +217,17 @@ const Technologies = () => {
         >
           <SiApachetomcat className="text-7xl text-yellow-500" />
           <span className="mt-2 text-lg font-semibold">Tomcat</span>
+        </motion.div>
+
+        {/* Kafka */}
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiApachekafka className="text-7xl text-black" />
+          <span className="mt-2 text-lg font-semibold">Kafka</span>
         </motion.div>
 
         {/* Git */}
