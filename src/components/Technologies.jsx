@@ -66,7 +66,7 @@ const Technologies = () => {
         </motion.div>
 
         {/* Next.js */}
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
@@ -74,7 +74,7 @@ const Technologies = () => {
         >
           <TbBrandNextjs className="text-7xl" />
           <span className="mt-2 text-lg font-semibold">Next.js</span>
-        </motion.div>
+        </motion.div> */}
 
         {/* Javascript */}
         <motion.div
@@ -88,7 +88,7 @@ const Technologies = () => {
         </motion.div>
 
         {/* Typescript */}
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
@@ -96,10 +96,10 @@ const Technologies = () => {
         >
           <SiTypescript className="text-7xl text-blue-600" />
           <span className="mt-2 text-lg font-semibold">Typescript</span>
-        </motion.div>
+        </motion.div> */}
 
         {/* Bootstrap */}
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(1.5)}
           initial="initial"
           animate="animate"
@@ -107,7 +107,7 @@ const Technologies = () => {
         >
           <SiBootstrap className="text-7xl text-purple-500" />
           <span className="mt-2 text-lg font-semibold">Bootstrap</span>
-        </motion.div>
+        </motion.div> */}
 
         {/* Node.js */}
         <motion.div
@@ -154,7 +154,7 @@ const Technologies = () => {
         </motion.div>
 
         {/* PostgreSQL */}
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
@@ -162,7 +162,7 @@ const Technologies = () => {
         >
           <BiLogoPostgresql className="text-7xl text-sky-700" />
           <span className="mt-2 text-lg font-semibold">PostgreSQL</span>
-        </motion.div>
+        </motion.div> */}
 
         {/* MongoDB */}
         <motion.div
@@ -198,7 +198,7 @@ const Technologies = () => {
         </motion.div>
 
         {/* Hibernate */}
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
@@ -206,10 +206,10 @@ const Technologies = () => {
         >
           <SiHibernate className="text-7xl text-gray-600" />
           <span className="mt-2 text-lg font-semibold">Hibernate</span>
-        </motion.div>
+        </motion.div> */}
 
         {/* Tomcat */}
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
@@ -217,7 +217,7 @@ const Technologies = () => {
         >
           <SiApachetomcat className="text-7xl text-yellow-500" />
           <span className="mt-2 text-lg font-semibold">Tomcat</span>
-        </motion.div>
+        </motion.div> */}
 
         {/* Kafka */}
         <motion.div
