@@ -58,7 +58,7 @@ const Hero = () => {
         <div>
           <button
             className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-purple-500 hover:to-pink-500 text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
-            onClick={() => window.open("/Resume.pdf", "_blank")}
+            onClick={() => window.open("/Resume1.pdf", "_blank")}
           >
             Download CV
           </button>
